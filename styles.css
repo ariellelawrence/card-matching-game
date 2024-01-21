@@ -39,7 +39,7 @@ body {
     }
     
     .debut, .fearless, .speak-now, .red, .nine, .reputation,
-    .card-front {
+    .card-front, .black-cat, .calico-cat, .gray-cat, .orange-cat, .tabby-cat, .white-cat  {
       width: 100%;
       height: 100%;
       position: absolute;
@@ -109,6 +109,60 @@ body {
 
     .reputation {
         background-image: url('reputation.png');
+        background-size: cover;
+        border: black solid 1px;
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+        cursor: no-drop;
+    }
+
+    .black-cat {
+        background-image: url('black.png');
+        background-size: cover;
+        border: black solid 1px;
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+        cursor: no-drop;
+    }
+
+    .calico-cat {
+        background-image: url('calico.png');
+        background-size: cover;
+        border: black solid 1px;
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+        cursor: no-drop;
+    }
+
+    .gray-cat {
+        background-image: url('gray.png');
+        background-size: cover;
+        border: black solid 1px;
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+        cursor: no-drop;
+    }
+
+    .orange-cat {
+        background-image: url('orange.png');
+        background-size: cover;
+        border: black solid 1px;
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+        cursor: no-drop;
+    }
+
+    .tabby-cat {
+        background-image: url('tabby.png');
+        background-size: cover;
+        border: black solid 1px;
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+        cursor: no-drop;
+    }
+
+    .white-cat {
+        background-image: url('white.png');
         background-size: cover;
         border: black solid 1px;
         transform: rotateY(180deg);
