@@ -81,12 +81,13 @@ body {
     .card-click {
       transform: rotateY(180deg);
     }
-    
+   
     .debut, .fearless, .speak-now, .red, .nine, .reputation,
     .card-front, 
     .black-cat, .calico-cat, .gray-cat, .orange-cat, .tabby-cat, .white-cat, 
     .golden, .german, .rott, .chi, .poodle, .lab, 
-    .rock-1, .rock-2, .rock-3, .rock-4, .rock-5, .rock-6 {
+    .rock-1, .rock-2, .rock-3, .rock-4, .rock-5, .rock-6, 
+    .alan-1, .alan-2, .alan-3, .alan-4, .alan-5, .alan-6 {
       width: 100%;
       height: 100%;
       position: absolute;
@@ -318,6 +319,60 @@ body {
 
     .rock-6 {
         background-image: url('rock-6.png');
+        background-size: cover;
+        border: black solid 1px;
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+        cursor: no-drop;
+    }
+
+    .alan-1 {
+        background-image: url('alan-1.png');
+        background-size: cover;
+        border: black solid 1px;
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+        cursor: no-drop;
+    }
+
+    .alan-2 {
+        background-image: url('alan-2.png');
+        background-size: cover;
+        border: black solid 1px;
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+        cursor: no-drop;
+    }
+
+    .alan-3 {
+        background-image: url('alan-3.png');
+        background-size: cover;
+        border: black solid 1px;
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+        cursor: no-drop;
+    }
+
+    .alan-4 {
+        background-image: url('alan-4.png');
+        background-size: cover;
+        border: black solid 1px;
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+        cursor: no-drop;
+    }
+
+    .alan-5 {
+        background-image: url('alan-5.png');
+        background-size: cover;
+        border: black solid 1px;
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+        cursor: no-drop;
+    }
+
+    .alan-6 {
+        background-image: url('alan-6.png');
         background-size: cover;
         border: black solid 1px;
         transform: rotateY(180deg);
