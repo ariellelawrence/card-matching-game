@@ -83,7 +83,9 @@ body {
     }
     
     .debut, .fearless, .speak-now, .red, .nine, .reputation,
-    .card-front, .black-cat, .calico-cat, .gray-cat, .orange-cat, .tabby-cat, .white-cat  {
+    .card-front, 
+    .black-cat, .calico-cat, .gray-cat, .orange-cat, .tabby-cat, .white-cat, 
+    .golden, .german, .rott, .chi, .poodle, .lab {
       width: 100%;
       height: 100%;
       position: absolute;
@@ -207,6 +209,60 @@ body {
 
     .white-cat {
         background-image: url('white.png');
+        background-size: cover;
+        border: black solid 1px;
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+        cursor: no-drop;
+    }
+
+    .golden {
+        background-image: url('golden.png');
+        background-size: cover;
+        border: black solid 1px;
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+        cursor: no-drop;
+    }
+
+    .chi {
+        background-image: url('chihuahua.png');
+        background-size: cover;
+        border: black solid 1px;
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+        cursor: no-drop;
+    }
+
+    .german {
+        background-image: url('german.png');
+        background-size: cover;
+        border: black solid 1px;
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+        cursor: no-drop;
+    }
+
+    .lab {
+        background-image: url('labrador.png');
+        background-size: cover;
+        border: black solid 1px;
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+        cursor: no-drop;
+    }
+
+    .poodle {
+        background-image: url('poodle.png');
+        background-size: cover;
+        border: black solid 1px;
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+        cursor: no-drop;
+    }
+
+    .rott {
+        background-image: url('rottweiler.png');
         background-size: cover;
         border: black solid 1px;
         transform: rotateY(180deg);
